@@ -12,7 +12,7 @@ This project would be an example of a possible intermediary step within a data p
 
 The data used in this example is sales order data set from the Kaggle Global Super Store Dataset, which can be found [here](https://www.kaggle.com/apoorvaappz/global-super-store-dataset), but can be easily adapted to any use case. 
 
-The Lambda Function and AWS resources were created and deployed using The Serverless Framework, and this repos includes the Yaml File and CloudFormation stack for generating the additional S3 Buckets. Please note that S3 Bucket names must be globally unique, so reproducing this stack will require changing the bucket names both in the Yaml file and in referencing them within the Python code. 
+The Lambda Function and AWS resources were created and deployed using The Serverless Framework, and this repo includes the Yaml File and CloudFormation stack for generating the additional S3 Buckets. Please note that S3 Bucket names must be globally unique, so reproducing this stack will require changing the bucket names both in the Yaml file and in referencing them within the Python code. 
 
 This project is only an example of many combinations and possible applications of using AWS Lambda to process raw csv files for automated transformations and data analysis. The possibilities for data processing go far beyond what is shown in this brief example, and can include possibilities such as automated EDA, imputation, or other BI techniques such as pivot tables. 
 
